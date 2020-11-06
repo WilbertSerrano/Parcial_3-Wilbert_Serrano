@@ -31,18 +31,15 @@ function filtrarElemento(e){
 }
 
 function mostrarLightbox(src, nombre){
-    //Animar el bloque de lightbox
     lightbox.style.display = 'flex';
     setTimeout(() => {
         lightbox.style.opacity = '1';
     }, 10);
 
-    //Animar el bloque de la imagen
     setTimeout(() => {
         boxImage.style.opacity = '1';
     }, .250);
 
-    //Asignar valores
     imagenLightbox.setAttribute('src', src);
     nombreImagen.textContent = `Nombre: ${nombre}`;
 }

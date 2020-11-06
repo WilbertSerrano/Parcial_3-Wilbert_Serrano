@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 <body>
-    <nav id="desktop">
+    <nav class="desktop" id="desktop">
         <div class="logo">
             <p>TURISTA - EL SALVADOR
             </p>
@@ -19,6 +19,17 @@
             <a href="#">Contactos</a>
         </div>
     </nav>
+
+    <div class="degradado" id="degradado"></div>
+
+    <nav class="movil" id="movil">
+        <a href="#" class="link">Inicio</a>
+        <a href="#" class="link">Destinos</a>
+        <a href="#" class="link">Contactos</a>
+        <div class="salir" id="salir">Salir</div>
+    </nav>
+    
+    <div class="btnMenu" id="btnMenu"><i class="fas fa-bars"></i></div>
 
     <header>
         <div class="header-background">
@@ -58,17 +69,20 @@
             <h2>Fotografías</h2>
         </div>
         <div class="gallery">
-            <div class="imagen img-1"><img class="img" src="img/1.png" alt="" nombre="Suchitoto - Museo del agua"></div>
-            <div class="imagen img-2"><img class="img" src="img/2.jpg" alt="" nombre="Iglesia de Suchitoto"></div>
-            <div class="imagen img-3"><img class="img" src="img/3.jpg" alt="" nombre="Imagen 3"></div>
-            <div class="imagen img-4"><img class="img" src="img/4.jpg" alt="" nombre="Imagen 4"></div>
-            <div class="imagen img-5"><img class="img" src="img/5.jpg" alt="" nombre="Imagen 5"></div>
-            <div class="imagen img-6"><img class="img" src="img/6.jpg" alt="" nombre="Iglesia de Suchitoto"></div>
-            <div class="imagen img-7"><img class="img" src="img/7.jpg" alt="" nombre="Imagen 7"></div>
-            <div class="imagen img-8"><img class="img" src="img/8.jpg" alt="" nombre="Imagen 8"></div>
+            <div class="imagen"><img class="img" src="img/1.png" alt="" nombre="Suchitoto - Museo del agua"></div>
+            <div class="imagen"><img class="img" src="img/2.jpg" alt="" nombre="Iglesia de Suchitoto"></div>
+            <div class="imagen"><img class="img" src="img/3.jpg" alt="" nombre="Lago de Suchitlán"></div>
+            <div class="imagen"><img class="img" src="img/4.jpg" alt="" nombre="Casas en Suchitoto"></div>
+            <div class="imagen"><img class="img" src="img/5.jpg" alt="" nombre="Casas en Suchitoto"></div>
+            <div class="imagen"><img class="img" src="img/6.jpg" alt="" nombre="Iglesia de Suchitoto"></div>
+            <div class="imagen"><img class="img" src="img/7.jpg" alt="" nombre="Lago de Suchitlán"></div>
+            <div class="imagen"><img class="img" src="img/8.jpg" alt="" nombre="Casas en Suchitoto"></div>
         </div>
     </section>
-
+    <footer>
+        Copyright 2020 © turistasv.com
+    </footer>
     <script src="js/gallery.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>

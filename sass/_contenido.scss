@@ -16,8 +16,14 @@ section.content{
     box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .35);
     .text{
         h2{
-            font-size: 2.5rem;
+            font-size: 2.5em;
             margin-bottom: 2rem;
         }
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        font-size: 12px;
     }
 }
