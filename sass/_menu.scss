@@ -2,8 +2,10 @@
     width: 100%;
     height: 80px;
     background: #fff;
+    padding-right: 10%;
+    padding-left: 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 25px rgba(0, 0, 0, .25);
     position: fixed;
